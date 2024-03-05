@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient( 45deg,black, gray, beige);
+}
+#box{
+    /* border:1px solid gray; */
+    border-radius: 12px;
+    width: 70vw;
+    display: flex;
+    background-color: rgb(246, 228, 206);
+}
+#container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;    
+}
+.inputWeight, .inputHeight{
+
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    
+}
+#height,#weight{
+    padding: 1rem;
+    width: auto;
+    outline: none;
+    /* border: none; */
+    border-radius: 4px;
+    background-color: transparent;
+}
+.cal{
+    margin: 1.5rem;
+}
+#btn{
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-left: 4rem;
+    padding: 1rem;
+    background-color: rgb(66, 118, 228);
+    color: white;
+    width: 10vw;
+    border-radius: 4px;
+}
+#displayBox{
+    margin: 4rem;
+    margin-top: 6rem;
+}
+.showBMI{
+    padding: 1rem;
+    font-size: 1.5rem;
+    min-width: auto; 
+    color: white; 
+}
+#health{
+    margin: 4rem;
+    margin-top: -3rem;
+    font-size: 1.5rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.healthyBMI{
+    color: gray;
+    font-style: italic;
+    margin: 4rem;
+    margin-top: -6rem;
+}
+.display{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+img{
+    height: 35vh;
+    margin-left: -0.7rem;
+    margin-top: 3rem;
+    position: fixed;
+}
