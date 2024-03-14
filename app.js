@@ -38,6 +38,5 @@ getBmi.addEventListener("click",()=>{
         showBmi.style.backgroundColor = "red";
         document.querySelector(".healthyBMI").innerHTML = "Healthy BMI range: 18.5 kg/m2 - 25 kg/m2";
     }
-    // showBmi.style.border = "2px solid gray";
    
 });
